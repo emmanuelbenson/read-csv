@@ -3,10 +3,6 @@ import { parseCsv } from '../service/csv.reader';
 import { SUM, FLATTEN, INVERTED, MULTIPLY, DEFAULT } from '../utils/constants';
 import { invertMatrix, flattenMatrix, sumMatrix, multiplyMatrix, defaultMatrix } from '../utils/format.csv';
 
-const getData = () => {
-    return 
-}
-
 export async function echoCsv(req: Request, res: Response) {
     
     let csvData: any;
