@@ -4,6 +4,16 @@
 yarn install
 ```
 
+## Run The API
+```
+yarn run dev
+```
+
+## Build The API
+```
+yarn run build
+```
+
 ## App runs on port 8000
 ```
 localhost:8000
