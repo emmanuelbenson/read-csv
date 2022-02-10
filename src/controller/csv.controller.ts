@@ -8,7 +8,7 @@ export async function echoCsv(req: Request, res: Response) {
     let csvData: any;
     let formatedCsvData: any;
 
-    const renderType: string = req.body.render_type;
+    const renderType: string = req.body.renderType;
 
     try {
         csvData = await parseCsv();        
